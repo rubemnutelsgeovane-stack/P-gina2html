@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página Principal</title>
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      min-height:100vh;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      padding:20px;
+    }
+
+    .card{
+      width:100%;
+      max-width:420px;
+      background: rgba(255,255,255,0.15);
+      backdrop-filter: blur(15px);
+      border-radius:25px;
+      padding:40px 30px;
+      text-align:center;
+      color:white;
+      box-shadow:0 10px 30px rgba(0,0,0,0.25);
+    }
+
+    .logo{
+      font-size:60px;
+      margin-bottom:20px;
+    }
+
+    h1{
+      font-size:32px;
+      margin-bottom:10px;
+    }
+
+    p{
+      font-size:18px;
+      opacity:0.9;
+      margin-bottom:30px;
+    }
+
+    .btn{
+      width:100%;
+      padding:15px;
+      border:none;
+      border-radius:14px;
+      font-size:18px;
+      font-weight:bold;
+      cursor:pointer;
+      background:white;
+      color:#764ba2;
+      transition:0.3s;
+      margin-top:15px;
+    }
+
+    .btn:hover{
+      transform:scale(1.03);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="card">
+    <div class="logo">🚀</div>
+    <h1>Página Principal</h1>
+    <p>Bem-vindo ao seu site moderno</p>
+
+    <button class="btn" onclick="window.location.href='index.html'">
+      Voltar ao Login
+    </button>
+
+    <button onclick="window.location.href='sensibilidade.html'">
+  Ir para IA de Sensibilidade
+</button>
+      Ir para página principal
+    </button>
+  </div>
+
+</body>
+  </html>
